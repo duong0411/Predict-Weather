@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="412dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/black"
+        android:text="Staion_1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="258dp"
+        android:layout_marginBottom="452dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp" />/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="112dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="272dp"
+        android:layout_marginBottom="641dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/title_temperature"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="112dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="313dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/title_rainfall"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="254dp"
+        android:layout_marginBottom="315dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/title_Soil_Moisure"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="87dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="642dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/title_humidity"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="92dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="241dp"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp" />/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="454dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp" />/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="257dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="106dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/temperatureProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="154dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginRight="251dp"
+        android:layout_marginBottom="477dp"
+        android:background="@drawable/ic_circular"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/ic_circular_progress_bar"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/humiditylandProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="163dp"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="158dp"
+        android:background="@drawable/ic_circular"
+        android:indeterminate="false"
+        android:max="-1000"
+        android:progressDrawable="@drawable/ic_circular_progress_bar"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/rainfallProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="156dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/ic_circular"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/ic_circular_progress_bar"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/humidityProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="158dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="480dp"
+        android:background="@drawable/ic_circular"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/ic_circular_progress_bar"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/io"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginRight="292dp"
+        android:layout_marginBottom="534dp"
+        android:contentDescription="@string/all"
+        app:srcCompat="@drawable/ic_temperature"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/io1"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="536dp"
+        android:contentDescription="@string/all"
+        app:srcCompat="@drawable/ic_humidity"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/io2"
+        android:layout_width="92dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginRight="280dp"
+        android:layout_marginBottom="191dp"
+        android:contentDescription="@string/all"
+        app:srcCompat="@drawable/r__1_"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/io4"
+        android:layout_width="88dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginBottom="191dp"
+        android:contentDescription="@string/all"
+
+        app:srcCompat="@drawable/oip" />
+
+
+</RelativeLayout>

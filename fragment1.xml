@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-1dp" />
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="357dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="372dp">
+
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="151dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginRight="255dp"
+            android:layout_marginBottom="288dp"
+            android:ems="10"
+            android:hint="Enter low rainfall"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="260dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="291dp"
+            android:ems="10"
+            android:hint="Enter low rainfall"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="146dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginRight="263dp"
+            android:layout_marginBottom="4dp"
+            android:text="LOAD" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="148dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="259dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="3dp"
+            android:text="ENTER" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="154dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="192dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginRight="218dp"
+            android:layout_marginBottom="206dp"
+            android:text="STATION_1 LOCATION"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="192dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginRight="216dp"
+            android:layout_marginBottom="114dp"
+            android:text="STATION_2 LOCATION"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="135dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginRight="271dp"
+            android:layout_marginBottom="155dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="133dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginRight="276dp"
+            android:layout_marginBottom="61dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="131dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="275dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="63dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="304dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="244dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginRight="310dp"
+            android:layout_marginBottom="242dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="305dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="267dp"
+            android:text="HIGH"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginRight="306dp"
+            android:layout_marginBottom="266dp"
+            android:text="LOW"
+            android:textSize="14dp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
